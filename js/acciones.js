@@ -7,6 +7,6 @@ $(document).ready(function(e) {
 		$('#btnvibrar').on('tap', function () {
 			navigator.notification.vibrate(5555);
 		});
-	});
+	},false);
 });
 
